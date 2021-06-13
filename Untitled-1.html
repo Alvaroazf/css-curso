@@ -1,0 +1,355 @@
+<html>
+    <head>ejemplo</head>
+    <body>
+        <style>
+            p{
+                color:white; background-color: gray;
+            }
+        </style>
+    </body>
+</html>
+<head>
+<style>
+p{
+    Color:white;
+    background-color:gray; 
+}
+</style></head>
+<body>
+    <p>El primer parrafo</p>
+    <p>el segundo parrafo</p>
+</body>
+</html>
+<html>
+    <head>
+        <link rel="stylesheet" href="example.css">
+    </head>
+    <body>
+        <p>parrafo</p>
+    <p>parrafo 2</p>
+    </body>
+</html>
+<html>
+    <head>selectores</head>
+    <body>
+        <style>
+            p{
+                color: red;
+                front-size: 130%;
+            }
+        </style>
+    </body>
+</html>
+
+<html>
+    <head>seledctor de id</head>
+    <body>
+        <style>
+            #intro
+            {color:white;
+            background-color: gray;}
+        </style>
+        <p>selectores de clase </p>
+        <div>
+            <p class="first">Este es un parrafo </p>
+            <p>Este 2 parrafo e normal </p>
+        </div>
+        <p class="first">Este ya no esta en introduccion </p>
+        <p>para hacerlo en css es: . first  y en corchetes {} se hace  referencia al tamaño</p>
+    <div id="intro">
+        <p class="first">este es un <em>parrafo</em></p>
+        <p>este es otro </p>
+        <p class="first">Esto ya no esta en la introduccion</p>
+
+        <style>
+            #intro .first em{
+                color:pink;
+                background-color: gray;
+            }
+        </style>
+    </div>
+    </body>
+</html>
+
+<html>
+<head>comentarios</head>
+<body>
+    <p> / * comentarios * /
+        <style>
+        p{color: green;
+        /* este es el comentario del color verde */ }
+        </style>
+    </p>
+</body>
+</html>
+<html>
+    <head><style>
+        body{
+            color: green;
+            font-family: arial;
+            }
+    </style>
+    </head>
+    <body>
+        <p>Este es el texto del parrafo</p>
+    </body>
+</html>
+<html>
+    <head>estilos o fuentes de texto </head>
+    <body>
+        <p class="serif">este es con la funte serif </p>
+        <p class="cursive">Este es un tipo de letra cursiva</p>
+        <p><style>
+            p.serif {font-family: 'Times New Roman', Times, serif;
+        }
+        </style>
+        este texto va a estar en times new roman </p>
+    </body>
+</html>
+
+<html><head>tamaños</head>
+<body>
+    <p>font-size:1.25em; </p>
+    <h1><style>{font-size:1.25em;}{dwadawdad} </style></h1>
+    <style>{font-size:20px;}</style>
+    <p class="italic">este es texto en cursiva</p>
+    <h2 font-size:50px;>este es el grande en teoria</h2>
+    <p><div id="styled"></div></p>
+    <p class="normal">este es text normal</p>
+    <p class="italic">este es en cursiva</p>
+    <p class="oblique">este es en obliqua </p>
+    <p class="light"{font-weight:lighter;}>este es en lighter </p>
+    <p class="bold"{font-weight:bold;}>este esta en bold </p>
+    <p class="bolder"{font-weight:negrita;}>este txt esta en negrita por css</p>
+    <p class="thicker"{font-weight:700;}>este es igual al bold</p>
+    <p class="normal"{font-variant:normal;}>este esta en normal</p>
+    <p class="small"{font-variant:small-caps;}>este esta en pequeño</p>
+    <p class="example"{color:green;}>este texto en color verde</p>
+    <p class="example">el texto sera de color red</p>
+    el texto de afuera sera negro por defecto
+    <h1{color:#000ff;}>este text estara de ese color azul en hexadecimal 000ff </h1>
+    <p{color:rgb(255,0,0);}>y este otro ejemplo es de color rojo   por rgb 255,0,0</p>
+    <p class="left"{text-align:left;}>este texto a la izquierda</p>
+    <p class="right"{text-align:right;}>este texto esta a la derecha</p>
+<td class="top"{vertical-align:top;}>este texto esta arlineado arriva</td>
+<td class="midle"{vertical-align:middle; }>este esta al medio </td>
+<td class="bottom"{vertical-align:bottom;}>este esta alineado al fondo  </td>
+<span class="baseline"{vertical-align:baseline;}>este txt esta alineado a la base del txt</span>
+<span class="sub"{vertical-align:sub;}>este esta alineado a un sub </span>
+<span class="super"{vertical-align:super;}>este esta aligneado a una lina arriva</span>
+<span class="pixel"{vertical-align:-10px;}>este esta alineado a menos 10 pixeles</span>
+<div class="main"{height:150px;wigth: 400px;
+background-color:lightskyblue;
+display:inline-table;}></div>
+<div class="paragraph"{display:table-cell;
+vertical-align:middle;}></div>
+<p class="none"{text-decoration:none;}>este es sin ninguna decoracion </p>
+<p class="inheirt"{text-decoration:inheirt;}>el de inheirt</p>
+<p class="overline"{text-decoration:overline;}>este tiene una decoracion soblelinea</p>
+<p class="bink"{text-decoration:blink;}>esto hace parpadear el texto, modo fiesta</p>
+<p class="textident"{text-indent:60px;}>este texto tengra una sangria con  longitud de 60px</p>
+<h1><p class="sombra"{color:blue; font-size:30px; text-shadow:5px 2px 4px grey;}>este texto tendr sombra</p></h1>
+<h2><p class="sombra2"{font-size:20pt; text-shadow:rgba(0,0,255,1)-1px -2px 0.5em;}>este texto tendra una sombra rara</p></h2>
+<p class="apitalize"{text-transform:capitalize;}>cambiar el texto en mayusculas</p>
+<p class="uppecase"{text-transform:uppercase;}>txt en mayus</p>
+<p class="lowercase"{text-transform:lowercase;}>texto en minusculas</p>
+<p class="positive"{letter-spacing:4px;}>espacio de letras de 4px</p>
+<p class="normal"{letter-spacing:normal;}>este txt tendra un espacio entre letras normal</p>
+<p class="positive"{letter-spacing:4px;}>con 4px de espacio </p>
+<p class="negative"{letter-spacing:-1.5px;}>con un espacio en -</p>
+<p class="normal"{word-spacing:normal;}>normal</p>
+<p class="px"{word-spacing:30px;}>con un espacio de 30 px</p>
+<p class="negative"{word-spacing:-5px;}>el negativo</p>
+<p class="positivo"{word-spacing:2opx;}>el positivo en 20 px</p>
+<p class="espacios"{white-space:nowrap;}>el norwarp ignora los espacios y saltos de linea</p>
+<p class="pre"{white-space:pre;}>espacio blanco 
+y un salto de linea</p>
+<p class="preline"{white-space:pre-line;}>espacio en blanco 
+    antes de       la linea</p>
+<p class="prewrap"{white-space:prewrap;}>no c       la 
+    verdad</p>
+    <p class="borde"{relleno:10px;borde:5px solid:green}>con verde oscuro</p>
+<p class="fist"{padding:10px;border-style:solid;border-whith:2px;}></p>
+<p class="second"{padding:10px;border-style:solid;border-whith:5px;}>textwadawdwd</p>
+<p class="none"{border-style:none;}>ninguno</p>
+<div class="border"{border:5px solid green;whith:100%; height:90px;}></div>
+<body{background-image:url("css_logo.png");background-color:#e9e9e9;}>dawdwdawdawd</body>
+<p class="wedding"{padding:30px;background-image: url("green_photo.jpng")color:white }></p>
+<body class="background"{url("css_logo.png")css_logo; background-repeat:repeat-x;}>
+<div class="body"{background-image:url("css_.png"); background-repeat:repeat-x;}>repeat</div>
+<div class="body"{background-image:url("css_logo.png");background-repeat;background-attachment:fixed;background-attachment:scroll;}>dawdwdawd</div>
+<ol class="lower-alpha"{list-style-type:lower-alpha;}></ol>
+<ul class="cricle"{list-style-type:circle;}>dwadawdaw</ul>
+<ul class="square"{list-style-type:square;}>adwdadw</ul>
+<p>The following list has list-style-position: <strong>inside</strong>.</p>
+<ul>
+   <li>Red</li>
+   <li>Green</li>
+   <li>Blue</li>
+</ul>
+<ul{list-style:square outside none;}></ul>
+<table border="1">
+    <tr>
+      <td>Red</td>
+      <td>Green</td>
+    </tr>
+    <tr>
+       <td>Blue</td>
+       <td>Yellow</td>
+    </tr>
+ </table>
+ <table border="1">
+    <caption>Some of Our Courses</caption>
+    <tr>
+      <th>Course name</th>
+      <th>Lessons</th>
+      <th>Quizzes</th>
+    </tr>
+    <tr>
+      <td>C++</td>
+      <td>81</td>
+      <td>363</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>48</td>
+      <td>144</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>38</td>
+      <td>119</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>70</td>
+      <td>174</td>
+    </tr>
+    </table>
+    <table border="1">
+        <tr>
+          <td>HTML</td>
+          <td>CSS</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td></td>
+        </tr>
+      </table>
+      <p>Table-layout is set to <strong>auto</strong></p>
+<table class="auto">
+  <tr>
+    <td width=“10%">500.000.000.000.000</td>
+    <td width="90%">20.000</td>
+  </tr>
+</table>
+
+<p>Table-layout is set to <strong>fixed</strong></p>
+<table class="fixed">
+  <tr>
+    <td width="10%">500.000.000.000.000</td>
+    <td width="90%">20.000</td>
+  </tr>
+</table>
+<p><a href="http://www.sololearn.com" target="_blank">
+    This link is hovered when we mouse over it
+ </a></p>
+ <span style="cursor:help;">¿nesecitas ayuda?</span>
+</body>
+<span>First paragraph.</span>
+<span>Second paragraph.</span>
+<span>Third paragraph.</span>
+<span>Fourth paragraph.</span>
+<span>Fifth paragraph.</span>
+<p class="displine"{display:inline;}></p>
+<h1>This text will not display, as we set the value to none.</h1>
+<p>Headline of this paragraph is not displayed, as we set the value to none.</p>
+<h1>This is a heading</h1>
+<div class="hidden">
+   This text will not display in browser.
+</div>
+<p>
+   The space above this paragraph is empty because 
+   the visibility of the div element is set to hidden.
+</p>
+<p>Paragraph with no position.</p>
+<p>Paragraph with no position.</p>
+<p>Paragraph with no position.</p>
+<p>Paragraph with no position.</p>
+<p>Paragraph with no position.</p>
+<p class="position_static">This paragraph has a static position.</p>
+<p><img src="css_logo.png" />
+    imagen que flota a la derecha <strong>derecha.</strong> 
+    It is highly recommended to add a margin to images so that the text does 
+    not get too close to the image. If you want your text to be easily read, you 
+    should always add a few pixels between words and borders, images, 
+    and other content. 
+    </p>
+    This paragraph is above the div element 
+and is not affected by the float right property. 
+<br /><br />
+<div class="floating">
+   <img src="css_logo.png" />
+</div>
+This paragraph comes after the div element 
+and is affected by the float right property. 
+<br /><br />
+This paragraph also comes after the div element
+and is affected by the float right property.
+<br /> <br />
+<div>
+    This text is inside the div element, which has a blue 
+    background color and is floated to the left. We set a specific 
+    height and width for the div element, and as you can see, 
+    the content cannot fit. 
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">DISCUSS</a></li>
+            <li><a href="#">TOP LEARNERS</a></li>
+            <li><a href="#">BLOG</a></li>
+        </ul>
+     </nav><div id="parent">
+        <p>First paragraph</p>
+        <p>Second paragraph</p>
+        <p>Third paragraph</p>
+        <p>Fourth paragraph</p>
+     </div>
+     <p>You can insert text, images, and other resources using <strong>:before </strong>pseudo element.</p>
+<p>You can insert text, images, and other resources using <strong>:before </strong>pseudo element.</p>
+<p>You can insert text, images, and other resources using <strong>:before </strong>pseudo element.</p>
+
+@font-face {
+    font-family: Delicious; 
+    src: url('Delicious-Roman.otf'); 
+  } 
+  @font-face { 
+    font-family: Delicious; 
+    font-weight: bold; 
+    src: url('Delicious-Bold.otf'); 
+  }
+  h1{
+     font-family: Delicious, sans-serif; 
+  }
+  background: radial-gradient(position, shape or size, color-stops);
+
+  @keyframes example {
+    0%  {background-color: red;}
+    50%  {background-color: yellow;}
+    70%  {background-color: blue;}
+    100% {background-color: green;}
+ }
+ @keyframes colorchange {
+    from {background-color: red;}
+    to {background-color: green;}
+ }
+</body></html>
+
+
+
+
+
+
+           
